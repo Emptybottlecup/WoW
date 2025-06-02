@@ -21,6 +21,7 @@ C:\Program Files (x86)\World of Warcraft\_retail_\Interface\AddOns
 C:\Program Files (x86)\World of Warcraft\_retail_\Interface\AddOns\Recomendations\dist\wow_script.exe
 6) Проблемы совместимости: При запуске игры, вы можете получить следующие ошибки:
 
+![Описание](images/61.png)
 Нажмите продолжить.
 
 Нажмите ОК.
