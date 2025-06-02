@@ -1,0 +1,14 @@
+## Title: Recommendation
+## Version: 1.0
+## Author: me
+## Interface: 80205
+## SavedVariables: PlayerData, PlayerDataJSON, playerExitedGame, CoeffOfIdentify, Stepik, AlreadyDeleted
+PlayersData.lua
+
+
+
+
+
+
+
+

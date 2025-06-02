@@ -1,0 +1,9 @@
+## Interface: 100105
+## Title: Recomendations
+## Notes: Аддон-помощник (Социализатор, Достигатор, Исследователь)
+## Author: dobr0
+## Version: 1.0
+## SavedVariables: userCoefficients, completedTasks, playerTypeData, identifyCoef
+## Dependencies: Routes, TomTom
+Frame.xml
+Frame.lua

@@ -1,0 +1,46 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Frame name="MyAddonFrame" parent="UIParent" movable="true" enableMouse="true">
+		<Size x="300" y="400" />
+		<Anchors>
+			<Anchor point="CENTER" />
+		</Anchors>
+		<Frames>
+			<Frame name="$parentTitle" inherits="TitleDragAreaTemplate">
+				<Anchors>
+					<Anchor y="-10" point="TOP" relativePoint="TOP" />
+				</Anchors>
+			</Frame>
+			<Button name="$parentCloseButton" inherits="UIPanelCloseButton">
+				<Anchors>
+					<Anchor x="-5" y="-5" point="TOPRIGHT" />
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						MyAddonFrame:Hide()
+					</OnClick>
+				</Scripts>
+			</Button>
+			<ScrollFrame name="$parentScrollFrame" inherits="UIPanelScrollFrameTemplate">
+				<Anchors>
+					<Anchor x="10" y="-30" point="TOPLEFT" />
+					<Anchor x="-30" y="10" point="BOTTOMRIGHT" />
+				</Anchors>
+				<Scripts>
+					<OnVerticalScroll>
+						MyAddonFrameScrollFrame_OnVerticalScroll(self, offset);
+					</OnVerticalScroll>
+				</Scripts>
+				<ScrollChild>
+					<Frame name="$parentContent">
+						<Size x="260" y="1000" />
+					</Frame>
+				</ScrollChild>
+			</ScrollFrame>
+		</Frames>
+	</Frame>
+</Ui>
+
+
+
+
+
